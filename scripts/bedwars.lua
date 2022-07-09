@@ -13,7 +13,7 @@ gmt.__namecall = newcclosure(
     return old(self, ...)
 end)
 
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/8pmX8/rektsky4roblox/main/NewRektskyUiLib.lua"))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tfgyhuriewuhreijrtrefjuyhrtds/rektsky4roblox/main/NewRektskyUiLib.lua"))()
 
 local entity = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua", true))()
 
@@ -21,7 +21,7 @@ local entity = loadstring(game:HttpGet("https://raw.githubusercontent.com/7Grand
 local whiteliststhing = {}
 
 pcall(function()
-    whiteliststhing = loadstring(game:HttpGet("https://raw.githubusercontent.com/8pmX8/rektsky4roblox/main/whitelist.lua"))()
+    whiteliststhing = loadstring(game:HttpGet("https://raw.githubusercontent.com/tfgyhuriewuhreijrtrefjuyhrtds/rektsky4roblox/main/whitelist.lua"))()
 end)
 
 do
