@@ -560,7 +560,6 @@ do
 end
 
 
---[[local conectionkillauraV2
 Tabs["Combat"]:CreateToggle({
     ["Name"] = "KillAuraV2",
     ["Keybind"] = nil,
